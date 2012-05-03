@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<otrs_config version="1.0" init="Application">
+    <ConfigItem Name="GraphicalACL::Parts###Root" Required="0" Valid="1">
+        <Description Translatable="1">Root parts of ACL definition.</Description>
+        <Group>GraphicalACL</Group>
+        <SubGroup>Core</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="PropertiesDatabase">1</Item>
+                <Item Key="Properties">1</Item>
+                <Item Key="Possible">1</Item>
+                <Item Key="PossibleNot">1</Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+</otrs_config>
